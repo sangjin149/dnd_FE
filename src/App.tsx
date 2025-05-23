@@ -1,10 +1,11 @@
 import "./App.css";
+import { BrowserRouter } from "react-router";
 
 function App() {
     return (
-        <>
-            <div>DND 해커톤</div>
-        </>
+        <BrowserRouter>
+            <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        </BrowserRouter>
     );
 }
 
